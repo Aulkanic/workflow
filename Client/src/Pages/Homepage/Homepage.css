@@ -1,0 +1,92 @@
+.homepage-container {
+    display: flex;
+    height: 100vh;
+}
+
+.homepage-content {
+    flex-grow: 1;
+    margin-left: 16rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.homepage-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homepage-greet {
+    padding: 25px;
+    height: 22vh;
+    width: 55%;
+    border-radius: 16px;
+    background-color: #0E0F22;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.homepage-greet img {
+    /* max-width: 175px; */
+    max-width: 8rem;
+    height: auto;
+    border-radius: 8px;
+}
+
+.homepage-greet h1 {
+    color: white;
+    margin-left: 3vh;
+    font-size: 4vh;
+}
+
+.homepage-join-create {
+    height: 22vh;
+    width: 43.75%;
+    background-color: #0E0F22;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.homepage-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.homepage-miniTaskList {
+    background-color: #0E0F22;
+    padding: 25px;
+    margin-top: 1rem;
+    border-radius: 16px;
+    width: 40%;
+    height: 73.75vh;
+}
+
+.report-calendar-container {
+    display: flex;
+    width: 59%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.homepage-taskreport {
+    background-color: #0E0F22;
+    padding: 25px;
+    margin-top: 1rem;
+    border-radius: 16px;
+    width: 100%;
+    height: 20vh;
+}
+
+.homepage-calendar {
+    background-color: #0E0F22;
+    padding: 25px;
+    margin-top: 1rem;
+    border-radius: 16px;
+    width: 100%;
+    height: 52vh;
+}
